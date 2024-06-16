@@ -1,5 +1,5 @@
 import tkinter as tk
-from utils import execute_command
+from tool_box.utils import execute_command
 
 class DeviceActions:
     @staticmethod

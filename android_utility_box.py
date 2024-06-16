@@ -1,10 +1,8 @@
 import tkinter as tk
-from tkinter import ttk
-import sv_ttk
-from device_actions import DeviceActions
-from file_operations import FileOperations
-from tools import Tools
-from utils import log, check_device_periodically
+from tool_box.device_actions import DeviceActions
+from tool_box.file_operations import FileOperations
+from tool_box.tools import Tools
+from tool_box.utils import check_device_periodically
 
 class AndroidUtilityBox:
     def __init__(self, root):
