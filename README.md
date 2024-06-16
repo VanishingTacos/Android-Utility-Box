@@ -15,7 +15,7 @@ Android Utility Box is a versatile tool for managing Android devices. It allows 
 ## Installation
 
 1. **Download Android Utility Box**
-   - Download the latest release of Android Utility Box from the [releases page](https://github.com/yourusername/android-utility-box/releases) on GitHub.
+   - Download the latest release of Android Utility Box from the [releases page](https://github.com/vanishingtacos/android-utility-box/releases) on GitHub.
    - Extract the contents of the downloaded ZIP file to a directory of your choice.
 
 2. **Download and Install Android Platform Tools**
@@ -35,7 +35,7 @@ Android Utility Box is a versatile tool for managing Android devices. It allows 
 
 3. **Perform Actions**
    - The application will detect your device and display its state. Depending on the state, you can perform various actions:
-     - **Normal Mode**: Install APK files.
+     - **Normal Mode**: Install APK files & uninstall packages.
      - **Sideload Mode**: Sideload ZIP files.
      - **Fastboot Mode**: Flash image files.
 
@@ -46,6 +46,11 @@ Android Utility Box is a versatile tool for managing Android devices. It allows 
      - Reboot to Bootloader
      - Reboot to Normal
      - Exit Fastboot
+    
+  5. **Tools**
+     - MD5 checker
+     - SHA-256 checker
+     - Logcat and dmesg log view
 
 ## Troubleshooting
 
